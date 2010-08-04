@@ -48,6 +48,10 @@
 %
 % Suppor for range queries will be enabled in the future versions.
 
+
+% Big number of exports, because we support both dict and gb_trees compatible APIs.
+% It should be safe to just change name of module to bbtree, and it will work.
+
 -export([
 	empty/0,             % empty() -> BB.                                                      % from gb_trees
 	new/0,               % same as empty/0                                                     % from dict
